@@ -1,0 +1,20 @@
+to flash the mcu with klipper
+1. cd ~/klipper
+2. make menuconfig
+3. make
+4. ls /dev/serial/by-id/*
+5. sudo service klipper stop
+6. make flash FLASH_DEVICE=/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0
+7. sudo service klipper start
+
+FLSUN QQ Specs:
+
+Print area: 260 x 370mm
+Max. bed temp:  100 degree Celsius
+Nozzle size: 0.4mm
+Max. nozzle temp: 270 degrees Celsius
+Max. Z-axis resolution: 0.05mm (50 microns)
+Z-axis accuracy: +/-0.0025mm
+X/Y-axis accuracy: +/-0.01mm
+Max. print speed: Manufacturer claim of 300mm/s
+Max. travel speed: –
