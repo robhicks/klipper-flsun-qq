@@ -1,0 +1,38 @@
+a_dist=69.8
+far_b=71.4
+c_dist=70.9
+far_a=71.9
+b_dist=69.5
+far_c=72.9
+
+DELTA_ANALYZE CENTER_DISTS=<a_dist>,<far_c_dist>,<b_dist>,<far_a_dist>,<c_dist>,<far_b_dist>
+DELTA_ANALYZE CENTER_DISTS=69.8,72.9,69.5,71.9,70.9,71.4
+
+a_to_far_c=70.6
+far_c_to_b=71.2
+b_to_far_a=72.1
+far_a_to_c=70.2
+c_to_far_b=71.1
+far_b_to_a=71.7
+
+DELTA_ANALYZE OUTER_DISTS=<a_to_far_c>,<far_c_to_b>,<b_to_far_a>,<far_a_to_c>,<c_to_far_b>,<far_b_to_a>
+DELTA_ANALYZE OUTER_DISTS=70.6,71.2,72.1,70.2,71.1,71.1
+
+a=8.6
+b=8.6
+c=8.8
+
+DELTA_ANALYZE CENTER_PILLAR_WIDTHS=<a>,<b>,<c>
+DELTA_ANALYZE CENTER_PILLAR_WIDTHS=8.6,8.6,8.8
+
+a=9.0
+far_c=8.7
+b=9.0
+far_a=9.0
+c=8.9
+far_b=8.9
+
+DELTA_ANALYZE OUTER_PILLAR_WIDTHS=<a>,<far_c>,<b>,<far_a>,<c>,<far_b>
+DELTA_ANALYZE OUTER_PILLAR_WIDTHS=9.0,8.7,9.0,9.0,8.9,8.9
+
+    DELTA_ANALYZE SCALE=1.0
